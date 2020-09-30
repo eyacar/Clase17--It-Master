@@ -8,8 +8,8 @@ const Navegacion = () => (
   enlaces.map ((navegando, i) => <li key={i}><strong>{navegando}</strong></li>)
 ) 
 
-const Titulo = (prop) => (
-<h1>El título: {prop.titulo1}</h1>
+const Titulo = (props) => (
+<h1>El título: {props.titulo1}</h1>
 ) 
 
 const Header = () => (
@@ -23,14 +23,14 @@ const Nav = () => (
   <Navegacion />
 </ul>
 )
-const Titulo2 = (prop) => (
-<h2>Titulo del Main: {prop.titulo2}</h2>
+const Titulo2 = (props) => (
+<h2>Titulo del Main: {props.titulo2}</h2>
 )
-const Imagen = (prop) => (
-  <img src={prop.imagen} alt={prop.titulo2}></img>
+const Imagen = (props) => (
+  <img src={props.imagen} alt={props.titulo2}></img>
 )
-const Parrafo = (prop) => (
-  <strong>{prop.parrafo}</strong>
+const Parrafo = (props) => (
+  <strong>{props.parrafo}</strong>
 )
 
 const Main = () => (
@@ -41,7 +41,7 @@ const Main = () => (
   </main>
 )
 
-const Foot = (prop) => (<small>{prop.footer}</small>)
+const Foot = (props) => (<small>{props.footer}</small>)
 
 const Footer = () => (
   <footer>

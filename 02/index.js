@@ -11,11 +11,11 @@ const img = ["https://via.placeholder.com/150x150/0000FF/808080/?text=La Gran Im
 const i = Math.floor(Math.random() * (img.length))
 
 const Navegacion = () => (
-  enlaces.map ((navegando, i) => <li className="btn btn-primary" key={i}><strong>{navegando}</strong></li>)
+  enlaces.map ((navegando, i) => <li key={i}><strong>{navegando}</strong></li>)
 ) 
 
-const Titulo = (prop) => (
-<h1>{prop.titulo1}</h1>
+const Titulo = (props) => (
+<h1>{props.titulo1}</h1>
 ) 
 
 const Imagen = () => (

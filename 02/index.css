@@ -45,7 +45,10 @@ nav ul{
   padding: 0;
 }
 nav ul li{
-  margin-top: 15%;
+  margin-top: 10%;
+  display: block;
+  background-color: grey;
+  line-height: 40px;
 }
 main{
   width: 50%;
